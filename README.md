@@ -1,4 +1,4 @@
-# Linux-RGB-Keyboard-Controller-for-Gigabyte-G5-Laptop
+# Linux-RGB-Keyboard-Controller-for-Laptop
 **Linux on Gigabyte Laptops has few drivers that support LED activation for the keyboard. This project provides a complete solution based on the "tuxedo-keyboard" driver, allowing you to control your keyboard's RGB backlight via Terminal and native Fn keys.**
 
 >[!CAUTION]
