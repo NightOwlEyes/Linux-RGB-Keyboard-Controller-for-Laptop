@@ -82,10 +82,10 @@ echo 255 | sudo tee /sys/class/leds/rgb:kbd_backlight/brightness
 ### 4. Install the Control Scripts and Systemd Services
 This will download this repository and place the `led` script and systemd services in the correct system directories.
 ```
-rm -rf ~/Linux-RGB-Keyboard-Controller-for-Gigabyte-G5-Laptop
+rm -rf ~/Linux-RGB-Keyboard-Controller-for-Laptop
 cd ~
-git clone https://github.com/NightOwlEyes/Linux-RGB-Keyboard-Controller-for-Gigabyte-G5-Laptop.git && \
-cd Linux-RGB-Keyboard-Controller-for-Gigabyte-G5-Laptop && \
+git clone https://github.com/NightOwlEyes/Linux-RGB-Keyboard-Controller-for-Laptop.git && \
+cd Linux-RGB-Keyboard-Controller-for-Laptop && \
 sudo cp led /usr/local/bin/ && \
 sudo cp kbd-backlight-* /etc/systemd/system/ && \
 echo tuxedo_keyboard | sudo tee /etc/modules-load.d/tuxedo.conf
